@@ -1,0 +1,6 @@
+Allows you to use the right click function of items while held by the mouse.
+If you want to drop the item like normal, you can either press the Throw keybind or hold the Auto Select keybind when pressing right click.
+
+Intends to work with all vanilla items and most modded items. If it doesn't function with a modded item, it is probably not my fault.
+
+Additionally comes with a config to enable / disable this feature at will.

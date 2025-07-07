@@ -1,0 +1,17 @@
+HoldThrow: Hold {0} to throw
+
+Configs: {
+	RightClickFromInventoryConfig: {
+		DisplayName: Config
+
+		enabled: {
+			Label: Enabled
+			Tooltip: ""
+		}
+
+		showHoldThrowText: {
+			Label: Show Throw Text
+			Tooltip: ""
+		}
+	}
+}
