@@ -237,11 +237,6 @@ namespace RightClickFromInventory
                     Main.instance.MouseText(Language.GetTextValue("Mods.RightClickFromInventory.HoldThrow", input));
                 }
             }
-
-            if (Main.LocalPlayer.HeldItem.ModItem != null)
-            {
-                Main.NewText(Main.LocalPlayer.HeldItem.ModItem.FullName);
-            }
         }
     }
 
