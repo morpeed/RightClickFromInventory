@@ -225,39 +225,6 @@ namespace RightClickFromInventory
     {
         public override void PostItemCheck()
         {
-            // Main.NewText(string.Join(", ", RightClickFromInventory.ItemHasAltFunctionUse.Select(id => ContentSamples.ItemsByType[id].Name)));
-            //var t = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(asm => asm.GetName().Name == "CalamityMod");
-            //if (t != null)
-            //{
-            //    var cmodplayer = t.GetType("CalamityMod.CalPlayer.CalamityPlayer");
-            //    if (cmodplayer != null)
-            //    {
-
-                    
-            //    }
-            //}
-
-            //var field = typeof(Player).GetField("modPlayers", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-            //if (field != null)
-            //{
-            //    var value = (ModPlayer[])field.GetValue(Main.LocalPlayer);
-            //    var calamityModPlayer = value.FirstOrDefault(i => i.Name == "CalamityPlayer");
-            //    if (calamityModPlayer != null)
-            //    {
-            //        var field2 = calamityModPlayer.GetType().GetField("mouseRight", System.Reflection.BindingFlags.Public | BindingFlags.Instance);
-            //        Main.NewText(calamityModPlayer.GetType().Name);
-            //        if (field2 != null)
-            //        {
-            //            var value2 = (bool)field2.GetValue(calamityModPlayer);
-            //            Main.NewText(value2);
-            //        }
-            //        else
-            //        {
-            //            Main.NewText("nuh");
-            //        }
-            //    }
-            //}
-
             if (RightClickFromInventoryConfig.Instance.enabled && RightClickFromInventoryConfig.Instance.showHoldThrowText && Player.whoAmI == Main.myPlayer && Main.mouseItem != null)
             {
                 if (Main.mouseRight && !Player.mouseInterface && Main.playerInventory && RightClickFromInventory.HasAltUse(Main.mouseItem))
