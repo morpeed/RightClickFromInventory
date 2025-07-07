@@ -4,3 +4,5 @@ If you want to drop the item like normal, you can either press the Throw keybind
 Intends to work with all vanilla items and most modded items. If it doesn't function with a modded item, it is probably not my fault.
 
 Additionally comes with a config to enable / disable this feature at will.
+
+GitHub: https://github.com/morpeed/RightClickFromInventory

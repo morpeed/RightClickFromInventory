@@ -1,3 +1,4 @@
 1.0.4
 
 - Mod will now check for if an item has an alt use only if enabled in settings and item is being held by the mouse
+- Added GitHub page

@@ -2,3 +2,4 @@ displayName = Right Click with Held Item
 author = morpe
 version = 1.0.4
 side = Client
+homepage = https://github.com/morpeed/RightClickFromInventory
